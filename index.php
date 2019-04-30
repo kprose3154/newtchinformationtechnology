@@ -16,7 +16,7 @@
 
 	<div id="page">
 		<div id="logo">        
-                  <h1><img src="logo.png" alt="KPLink Logo" style="width:300px;height:60px;border:0;"></h1>
+                  <h1><img src="logo.png" alt="Logo" style="width:300px;height:60px;border:0;"></h1>
 		</div>
 	<div id="nav">
 			<ul>

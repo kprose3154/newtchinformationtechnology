@@ -93,7 +93,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 				<li><a href="welcome.php">Home</a></li>
         		<li><a href="requests.php">Requests</a></li>
                 <li><a href="settings.php">Settings</a></li>
-					<li><a href="logout.php">Logout</a></li>
       </ul>	
 		</div>
 		<div id="content">

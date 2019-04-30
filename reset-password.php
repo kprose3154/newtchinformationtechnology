@@ -93,7 +93,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 				<li><a href="welcome.php">Home</a></li>
         		<li><a href="requests.php">Requests</a></li>
                 <li><a href="settings.php">Settings</a></li>
-					<li><a href="logout.php">Logout</a></li>
       </ul>	
 		</div>
 		<div id="content">
@@ -112,7 +111,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Submit">
-                <a class="btn btn-link" href="welcome.php">Cancel</a>
+                <a class="btn btn-link" href="settings.php">Cancel</a>
             </div>
         </form>
 		</div>

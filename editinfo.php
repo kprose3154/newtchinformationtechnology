@@ -33,7 +33,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 				<li><a href="welcome.php">Home</a></li>
         		<li><a href="requests.php">Requests</a></li>
 				<li><a href="settings.php">Settings</a></li>
-					<li><a href="logout.php">Logout</a></li>
       </ul>	
 		</div>
 		<div id="content">
@@ -109,7 +108,7 @@ mysqli_close($con);
 		</table>
 	  <input id='submit' name='submit' type='submit' value='Save' style='display:block'>
 	  <button type="reset" value="Reset">Reset</button>
-	  <a class="btn btn-link" href="requests.php">Cancel</a>
+	  <a class="btn btn-link" href="settings.php">Cancel</a>
 	  <input id='submitted' name='submitted' type='hidden' value='true' style='display:block'/>
 	  </form>
 		</div>
